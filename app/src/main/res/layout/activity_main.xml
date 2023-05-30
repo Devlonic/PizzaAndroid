@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/sizeInput"
+        android:layout_height="wrap_content"
+        android:hint="Enter size" android:layout_width="match_parent"/>
+
+    <EditText
+        android:id="@+id/toppingsInput"
+        android:layout_height="wrap_content"
+        android:hint="Enter toppings" android:layout_width="match_parent"/>
+
+    <EditText
+        android:id="@+id/addonsInput"
+        android:layout_height="wrap_content"
+        android:hint="Enter addons" android:layout_width="match_parent"/>
+
+    <Button
+        android:id="@+id/order_button"
+        android:text="Order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"></Button>
+
+</LinearLayout>

@@ -44,5 +44,6 @@ public class ResultActivity extends AppCompatActivity {
         backButton.setOnClickListener(v -> {
             backToMainActivity(size, toppings, addons, price);
         });
+
     }
 }
